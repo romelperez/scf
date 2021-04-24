@@ -1,3 +1,3 @@
-# Star Citizen
+# Star Citizen Finder
 
-Star Citizen finder.
+Star Citizen Finder.
