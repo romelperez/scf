@@ -40,6 +40,14 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "semi": ["error", "always"],
-    "brace-style": ["error", "stroustrup"]
+    "brace-style": ["error", "stroustrup"],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "^jsx$",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-unused-vars": "off"
   }
 }

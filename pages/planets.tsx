@@ -2,15 +2,15 @@ import { Text } from '@arwes/core';
 
 import { AppContentWrapper } from '../components/AppContentWrapper';
 
-export default function Home () {
+export default function Planets () {
   return (
     <main>
       <AppContentWrapper>
         <header>
-          <Text as='h1'>Star Citizen Finder</Text>
+          <Text as='h1'>Planets</Text>
         </header>
         <div>
-          <Text as='p'>This is a Star Citizen application for find any item in the Star Citizen universe.</Text>
+          <Text as='p'>Inventory of available planets.</Text>
         </div>
       </AppContentWrapper>
     </main>

@@ -10,11 +10,23 @@
     "lint-fix": "eslint . --fix --ext .ts,.tsx,.js"
   },
   "dependencies": {
+    "@arwes/animation": "^1.0.0-alpha.19",
+    "@arwes/core": "^1.0.0-alpha.19",
+    "@arwes/design": "^1.0.0-alpha.19",
+    "@arwes/sounds": "^1.0.0-alpha.19",
+    "@emotion/css": "^11.1.3",
+    "@emotion/react": "^11.1.5",
+    "animejs": "^3.2.1",
+    "howler": "^2.2.1",
     "next": "10.1.3",
+    "polished": "^4.1.1",
+    "prop-types": "^15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/animejs": "^3.1.3",
+    "@types/howler": "^2.2.2",
     "@types/node": "^14.14.41",
     "@types/react": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
